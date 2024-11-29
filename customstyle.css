@@ -1,0 +1,277 @@
+/* Updated color scheme */
+:root {
+  --primary-color: #0f6fc5; /* Updated primary color */
+  --secondary-color: #f39c12; /* Changed secondary color to a warmer tone */
+  --background-color: #f5f7fa;
+  --text-color: #34495e;
+  --error-color: #e74c3c;
+}
+
+/* Change the border radius of the cards */
+.card {
+  border-radius: 12px;
+}
+.card .card-img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Adjust navbar colors */
+.navbar{
+  backdrop-filter: blur(50px);
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Adjust navbar user name color */
+.action-menu-trigger #action-menu-toggle-1 .userbutton .usertext {
+  color: var(--text-color) !important;
+}
+
+/* Adjust navbar text color */
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-color) !important;
+}
+
+/* Remove the hexagonal shape from navbar */
+nav.fixed-top:before {
+  content: none !important
+}
+
+/* Make the navbar floating */
+#page-wrapper .navbar:has(.d-inline-block) {
+  position: fixed !important;
+  top: 1rem !important;
+  left: 1rem !important;
+  right: 1rem !important;
+  border-radius: 0.8rem;
+}
+
+/* Remove the border of the hamburger button */
+.fixed-top .btn {
+  border: none !important;
+}
+
+/* Remove background color of the hamburger button */
+.bg-gray {
+  background-color: transparent !important;
+}
+
+/* Adjust the filter buttons */
+.card-body .card-text .block-cards .btn-outline-secondary {
+  border-radius: 10rem !important;
+  background-color: #748dbf !important;
+  color: white !important;
+}
+
+/* Change the border of the main content of pages */
+#page #page-content #region-main-box #region-main {
+  border-radius: 12px !important;
+}
+
+.modal-content {
+  border-radius: 0.8rem;
+}
+
+.btn-primary {
+  border-radius: 10rem !important;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+}
+
+/* Login page */
+body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Card styling */
+#region-main .justify-content-center .col-xl-6 .card {
+  max-width: 500px !important;
+  margin: 3rem auto !important;
+  border: none !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden !important;
+}
+
+.col-xl-6 .card .card-block .card-header {
+  background-color: var(--primary-color) !important;
+  border-bottom: none !important;
+  padding: 2rem 0 !important;
+}
+
+.col-xl-6 .card .card-block .card-header img {
+  max-width: 180px !important;
+  filter: brightness(0) invert(1) !important;
+}
+
+.col-xl-6 .card .card-block .card-body {
+  padding: 2.5rem !important;
+}
+
+#region-main-box #region-main .justify-content-center .col-xl-6 {
+  min-height: 100 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Input field styling */
+.form-control {
+  border: none !important;
+  border-bottom: 2px solid #e0e0e0 !important;
+  border-radius: 0 !important;
+  padding: 0.75rem 0 !important;
+  transition: border-color 0.3s ease !important;
+  width: 100% !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: var(--primary-color) !important;
+}
+
+/* Login button styling */
+#loginbtn {
+  background-color: var(--secondary-color) !important;
+  border-radius: 25px !important;
+  padding: 0.75rem 1.5rem !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  transition: all 0.3s ease !important;
+  width: 100% !important;
+}
+
+#loginbtn:hover {
+  background-color: #e67e22 !important;
+  box-shadow: 0 4px 8px rgba(243, 156, 18, 0.3) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Error message styling */
+.alert-danger {
+  background-color: #fdeaea !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: var(--error-color) !important;
+  padding: 1rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Moving "Forgot password" and "Cookies" message */
+.forgetpass, .mt-3 {
+  text-align: center !important;
+  margin-top: 1rem !important;
+}
+
+.rememberpass {
+  text-align: left !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  #yui_3_17_2_1_1727974828425_27 .card {
+    margin: 1rem !important;
+  }
+  
+  #yui_3_17_2_1_1727974828425_27 .card-body {
+    padding: 2rem 1.5rem !important;
+  }
+}
+
+/* Module Images */
+/* ------------- */
+/* Data Modeling in NoSQL Databases */
+a[href="https://lms.nibmworldwide.com/course/view.php?id=41256"] div {
+  background-image: url("https://img.notionusercontent.com/s3/prod-files-secure%2Ffd34a5c9-ba09-4b72-b9bd-8ccb2db8852e%2F8e78ee38-5e21-4bb4-81e1-ec4b9821a539%2FMicrosoft_Designer_Image_(2).jpeg/size/w=2000?exp=1730039274&sig=b3fGlAgRDf9fiZJcNES9dYo0czdBETaXG3XPMwGJbz8") !important;
+}
+
+/* Data Structures & Algorithms */
+a[href="https://lms.nibmworldwide.com/course/view.php?id=41255"] div {
+  background-image: url("https://img.notionusercontent.com/s3/prod-files-secure%2Ffd34a5c9-ba09-4b72-b9bd-8ccb2db8852e%2F4e35962c-8e12-48e3-9d90-b1fcac3fdcc1%2FMicrosoft_Designer_Image_(3).jpeg/size/w=2000?exp=1730038867&sig=0QrGVGyRXUpchzcokBh0XpUQBazQH__dXYoweIpn-YE") !important;
+}
+/* Effective Communication Skills 2 */
+a[href="https://lms.nibmworldwide.com/course/view.php?id=41260"] div {
+  background-image: url("https://img.notionusercontent.com/s3/prod-files-secure%2Ffd34a5c9-ba09-4b72-b9bd-8ccb2db8852e%2Fc49b4865-822c-4e01-b49a-aef2a7e5b343%2FDesigner_image.jpeg/size/w=2000?exp=1730039519&sig=lu9tO_Wq7NdHXP0eoqvdFPFBVo3lRYogn2owxE76XzQ") !important;
+}
+/* Embedded Systems */
+a[href="https://lms.nibmworldwide.com/course/view.php?id=41258"] div {
+  background-image: url(https://img.notionusercontent.com/s3/prod-files-secure%2Ffd34a5c9-ba09-4b72-b9bd-8ccb2db8852e%2F9ab4e4cd-07a5-4fb0-a2b0-d1969f2088da%2FMicrosoft_Designer.jpeg/size/w=2000?exp=1730039580&sig=iVpJDROxeRtPO6t7XGqQ1XgC9R4AFWeNAREeY9DVhX0) !important;
+}
+/* IoT */
+a[href="https://lms.nibmworldwide.com/course/view.php?id=41259"] div {
+  background-image: url(https://img.notionusercontent.com/s3/prod-files-secure%2Ffd34a5c9-ba09-4b72-b9bd-8ccb2db8852e%2F7d91c50d-e2ee-40e9-8ab5-bf5940b8f25a%2FMicrosoft_Designer_Image.jpeg/size/w=2000?exp=1730039860&sig=6k02DKM2tmqISS5IjEmt_1TaliTKyq1yXrySMyBleAk) !important;
+}
+
+/* ML for AI */
+a[href="https://lms.nibmworldwide.com/course/view.php?id=41257"] div {
+  background-image: url("https://img.notionusercontent.com/s3/prod-files-secure%2Ffd34a5c9-ba09-4b72-b9bd-8ccb2db8852e%2Ff328f00a-8e3d-44bf-add6-51fa815e4af9%2FMicrosoft_Designer_Image_(1).jpeg/size/w=2000?exp=1730041003&sig=xyinnWu_mT6YY2U37AFXzC652howPI52vZyCyvohKc4") !important;
+}
+
+/* Icons */
+/* ----- */
+/* Target the specific icon class */
+.icon.fa.fa-filter.fa-fw {
+  font-family: none !important;
+  content: " " !important;
+  background-image: url('data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 viewBox%3D%220 0 11.5186 11.04%22%3E%3Cg%3E%3Crect height%3D%2211.04%22 opacity%3D%220%22 width%3D%2211.5186%22 x%3D%220%22 y%3D%220%22/%3E%3Cpath d%3D%22M11.04 5.5166C11.04 8.55859 8.56543 11.0332 5.5166 11.0332C2.47461 11.0332 0 8.55859 0 5.5166C0 2.47461 2.47461 0 5.5166 0C8.56543 0 11.04 2.47461 11.04 5.5166ZM4.22461 7.28027C3.94434 7.28027 3.74609 7.45801 3.74609 7.71777C3.74609 7.99121 3.94434 8.16895 4.22461 8.16895L6.83594 8.16895C7.11621 8.16895 7.31445 7.99121 7.31445 7.71777C7.31445 7.45801 7.11621 7.28027 6.83594 7.28027ZM3.35645 5.42773C3.07617 5.42773 2.87793 5.60547 2.87793 5.87891C2.87793 6.14551 3.07617 6.32324 3.35645 6.32324L7.69727 6.32324C7.98438 6.32324 8.18262 6.14551 8.18262 5.87891C8.18262 5.60547 7.98438 5.42773 7.69727 5.42773ZM2.5293 3.58887C2.24902 3.58887 2.05078 3.7666 2.05078 4.04004C2.05078 4.2998 2.24902 4.47754 2.5293 4.47754L8.53125 4.47754C8.80469 4.47754 9.00977 4.2998 9.00977 4.04004C9.00977 3.7666 8.80469 3.58887 8.53125 3.58887Z%22 fill%3D%22black%22 fill-opacity%3D%220.85%22/%3E%3C/g%3E%3C/svg%3E') !important;
+}
+.fa-filter:before {
+  content: "" !important;
+}
+
+/* Robot Check */
+/* ----------- */
+/* Confirm Button */
+input[type="submit"][name="Validate"] {
+  align-items: flex-start;
+  appearance: button;
+  background-color: rgb(243, 156, 18);
+  border: 1px solid rgb(15, 111, 197);
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14.8879px;
+  font-weight: 500;
+  height: 48.3359px;
+  letter-spacing: 0.5px;
+  line-height: 22.3319px;
+  margin: 16px 0 0 0;
+  padding: 12px 24px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  user-select: none;
+  vertical-align: middle;
+  width: 157.5px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  appearance: none;
+}
+
+/* Hover effect for the confirm button */
+input[type="submit"][name="Validate"]:hover {
+  background-color: #e67e22 !important;
+  box-shadow: 0 4px 8px rgba(243, 156, 18, 0.3) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Form */
+table[style="height:100vh; width:100vw"] form {
+  max-width: 300px !important;
+  margin: 3rem auto !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  padding: 2.5rem !important;
+  background-color: white !important;
+}
